@@ -2,6 +2,11 @@ body{
     font-family: CaviarDreams;
 }
 
+section{
+    margin: -10px 0px 0px 0px;
+    padding: 10px 10px 20px 10px;
+}
+
 .navigation-bar{
     position: fixed;
     z-index: 1;
@@ -9,6 +14,22 @@ body{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease-in 0.3s;
     transition: box-shadow 0.1s ease-in 0.1s;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 110%;
+  margin: 1.78rem 0 1.424rem 0;
+}
+
+.p2{
+  font-size: 1.4rem;
+  line-height: 110%;
+  margin: 0.5rem 0 0.4rem 0;
+}
+
+.section-header{
+    margin: 50px 0px 50px 0px;
 }
 
 .active{
@@ -22,7 +43,7 @@ body{
 }
 
 .parallax-container{
-    height: 800px;
+    height: 700px;
 }
 
 #banner-logo{

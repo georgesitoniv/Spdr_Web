@@ -3,14 +3,6 @@ $( document ).ready(function(){
     $('.parallax').parallax();
 });
 
-$(window).scroll(function (){ 
-    var navbarHeight = $('.navigation-bar').heigth;
-    if($(this).scrollTop () > 50){
-        $('.navigation-bar').removeClass('opaque');
-    } else{
-        $('.navigation-bar').addClass('opaque');
-    }
-});
 
 $('a[href*="#"]:not([href="#"])').click(function() {
     $("li").removeClass('active');
