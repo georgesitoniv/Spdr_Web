@@ -6,9 +6,11 @@
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+        <link rel="stylesheet" rel="stylesheet" href="css/animate.css">
         <!--Theme css-->
         <link type="text/css" rel="stylesheet" href="css/xion.css"  media="screen,projection"/>
-        <!--Let browser know website is optimized for mobile-->
+        <!--Let browser know website is optimitransitionzed for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
@@ -38,12 +40,12 @@
 
         <header id = "banner">
             <div class="parallax-container valign-wrapper">
-                <div class = "container">
+                <div class = "container valign-wrapper">
                     <div class="row">
-                        <div class="col l6 m6 s12">
-                            <img id="banner-logo" src = "img/logo.png"/>
+                        <div class="col l6 m6 s12" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal, after: scrollReveal">
+                            <img class="responsive-img" id = "banner-logo" src = "img/logo.png"/>
                         </div>
-                        <div class="col l6 m6 s12">
+                        <div class="col l6 m6 s12" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
                             <h1 class="white-text">"We make wonderful things"</h1>
                         </div>
                     </div>
@@ -54,7 +56,7 @@
 
         <article>
 
-            <section id = "about" class="deep-purple lighten-1">
+            <section id = "about" class="deep-purple" data-anijs="if: scroll, on: window, do: rotateInDownLeft animated, before: scrollReveal, after: scrollReveal">
                 <div class = "container">
                     <h2 class="center-align white-text">WE ARE XION!</h2>
                     <div class="section-header row center-align">
@@ -67,7 +69,7 @@
                     </div>
                     <div class="row">
                         <div class = "col l12">
-                            <p class="p2">
+                            <p class="p3 center-align">
                                 We develop and design websites according to your preferences at a reasonable price. 
                                 We also have various website templates you can choose from. Contact us now to build a website!
                             </p> 
@@ -78,7 +80,7 @@
 
             <section id = "showcase" class="grey lighten-3">
                 <h2 class="center-align Black-text">SHOWCASE</h2>
-                    <div class="carousel">
+                    <div class="carousel" data-anijs="if: scroll, on: window, do: shake animated, before: scrollReveal, after: scrollReveal">
                         <a class="carousel-item" href="#one!"><img src="img/enrapture-icon.png"></a>
                         <a class="carousel-item" href="#two!"><img src="img/farewell-dreams-icon.png"></a>
                         <a class="carousel-item" href="#three!"><img src="img/elemental-dash-icon.png"></a>
@@ -87,9 +89,10 @@
                     </div>
                
             </section>
-            <section id = "templates" class="red">
+
+            <section id = "templates" class="deep-purple">
                 <h2 class="center-align white-text">TEMPLATES</h2>
-                <div class="row container">
+                <div class="row container" data-anijs="if: scroll, on: window, do: bounceIn animated, to: .card, before: scrollReveal, after: scrollReveal">
                       <div class="row">
                         <div class="col l3 m6 s12">
                             <div class="card">
@@ -179,10 +182,10 @@
                 </div>
             </section>
 
-            <section id = "team" class="grey">
+            <section id = "team" class="grey darken-1">
                 <h2 class="center-align Black-text">TEAM</h2>
-                <div class="container center-align">
-                    <div class="row">
+                <div class="container center-align" >
+                    <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: .circle-image, before: scrollReveal, after: scrollReveal">
                         <div class="col l2 m6 s6 offset-l1">
                             <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
                         </div>
@@ -275,7 +278,9 @@
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
-        <script type="text/javascript" src="js/xion.js"></script>
+        <script type="text/javascript" src="js/anijs-min.js"></script>
+        <script type="text/javascript" src="js/anijs-helper-scrollreveal-min.js"></script>
+        <script type="text/javascript" src="js/xion.js"></script>      
     </body>
 
 </html>
