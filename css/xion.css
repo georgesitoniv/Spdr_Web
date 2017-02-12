@@ -28,9 +28,6 @@ body{
 #banner-logo{
     width: 300px;
     height: 300px
-    -webkit-transition: property duration timing-function delay;
-    -moz-transition: property duration timing-function delay;
-    transition: property duration timing-function delay;
 }
 
 @font-face{
