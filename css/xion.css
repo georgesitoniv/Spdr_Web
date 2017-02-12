@@ -1,0 +1,39 @@
+body{
+    font-family: CaviarDreams;
+}
+
+.navigation-bar{
+    position: fixed;
+    z-index: 1;
+    background-color: #fafafa;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in 0.3s;
+    transition: box-shadow 0.1s ease-in 0.1s;
+}
+
+.active{
+    background-color:rgb(0, 0, 0, 0.1);
+}
+
+.opaque{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px black;  
+    transition: background-color 0.3s ease-in 0.3s;
+}
+
+.parallax-container{
+    height: 800px;
+}
+
+#banner-logo{
+    width: 300px;
+    height: 300px
+    -webkit-transition: property duration timing-function delay;
+    -moz-transition: property duration timing-function delay;
+    transition: property duration timing-function delay;
+}
+
+@font-face{
+    font-family: CaviarDreams;
+    src: url("../fonts/CaviarDreams/CaviarDreams.ttf")
+}
