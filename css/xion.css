@@ -4,7 +4,12 @@ body{
 
 section{
     margin: -10px 0px 0px 0px;
-    padding: 10px 10px 20px 10px;
+    padding: 20px 10px 60px 10px;
+}
+
+footer{
+    margin: -10px 0px 0px 0px;
+    padding: 30px 10px 10px 10px;
 }
 
 .navigation-bar{
@@ -26,6 +31,13 @@ h2 {
   font-size: 1.4rem;
   line-height: 110%;
   margin: 0.5rem 0 0.4rem 0;
+}
+
+.circle-image{
+    border: 0.4em solid #bdbdbd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 .section-header{
