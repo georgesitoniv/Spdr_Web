@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Xion</title>
+        <title>Spdr Web</title>
         <!--Import Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
@@ -18,7 +18,6 @@
         <nav class="navigation-bar">
             <div class="nav-wrapper black-text">
                 <div class = "container">
-                    <a href="#banner" class="brand-logo black-text">XION</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#about" class="black-text">ABOUT</a></li>
@@ -39,13 +38,15 @@
         </nav>
 
         <header id = "banner">
-            <div class="parallax-container valign-wrapper">
-                <div class = "container valign-wrapper">
+            <div class="parallax-container  valign-wrapper">
+                <div class = "container ">
                     <div class="row">
-                        <div class="col l6 m6 s12" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal, after: scrollReveal">
-                            <img class="responsive-img" id = "banner-logo" src = "img/logo.png"/>
+                        <div class="col l6 m6 s12 valign center-align container" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal, after: scrollReveal">
+                        
+                            <h1 class="banner-text"><div class="red-text">Spdr</div>Web</h1>
+                            <!--<img class="responsive-img" id = "banner-logo" src = "img/logo.png"/>-->
                         </div>
-                        <div class="col l6 m6 s12" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
+                        <div class="col l6 m6 s12 valign" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
                             <h1 class="white-text">"We make wonderful things"</h1>
                         </div>
                     </div>
@@ -56,178 +57,220 @@
 
         <article>
 
-            <section id = "about" class="deep-purple" data-anijs="if: scroll, on: window, do: rotateInDownLeft animated, before: scrollReveal, after: scrollReveal">
+            <section id = "about" class="grey lighten-4" >
                 <div class = "container">
-                    <h2 class="center-align white-text">WE ARE XION!</h2>
-                    <div class="section-header row center-align">
-                        <div class = "col l6 m6 s12">
-                            <img src = "img/html.png"/>
-                        </div>
-                        <div class = "col l6 m6 s12">
-                            <img src = "img/internet.png"/>
-                        </div>
-                    </div>
-                    <div class="row">
+                    <h2 class="center-align">We are Spdr!</h2>
+                    <div class="divider black"></div>
+                    <div class="row section-header" data-anijs="if: scroll, on: window, do: bounceInUp animated, before: scrollReveal, after: scrollReveal"> 
                         <div class = "col l12">
                             <p class="p3 center-align">
-                                We develop and design websites according to your preferences at a reasonable price. 
-                                We also have various website templates you can choose from. Contact us now to build a website!
+                                We are a group of students that develops and designs websites according to your preferences at a reasonable price.  We have developed numerous mobile applications published on Google Play and numerous responsive website uploaded to different hosting websites.
                             </p> 
                          </div>
+                    </div>
+                    <div class="section-header row center-align" data-anijs="if: scroll, on: window, do: zoomInDown animated, before: scrollReveal, after: scrollReveal">
+                        <div class = "col l4 m4 s12">
+                            <img src = "img/html.png"/>
+                            <p class="p3">Resposive Website Design</p>
+                            <div class="divider black"></div>
+                            <p>We design websites that are mobile friendly and intelligently adapts to the size of the screen of the users’ gadget.</p>
+                        </div>
+                        <div class = "col l4 m4 s12">
+                            <img src = "img/database.png"/>
+                            <p class="p3">Dynamic Website</p>
+                            <div class="divider black"></div>
+                            <p>We develop websites that refine and update itself according to the users’ interaction. These websites utilize databases to store relevant information regarding the user and the user’s actions.</p>
+                        </div>
+                        <div class = "col l4 m4 s12">
+                            <img src = "img/workspace.png"/>
+                            <p class="p3">Graphic Design</p>
+                            <div class="divider black"></div>
+                            <p>We fabricate aesthetic graphic artworks.</p>
+                        </div>
                     </div>
                 </div>          
             </section>
 
-            <section id = "showcase" class="grey lighten-3">
-                <h2 class="center-align Black-text">SHOWCASE</h2>
-                    <div class="carousel" data-anijs="if: scroll, on: window, do: shake animated, before: scrollReveal, after: scrollReveal">
-                        <a class="carousel-item" href="#one!"><img src="img/enrapture-icon.png"></a>
-                        <a class="carousel-item" href="#two!"><img src="img/farewell-dreams-icon.png"></a>
-                        <a class="carousel-item" href="#three!"><img src="img/elemental-dash-icon.png"></a>
-                        <a class="carousel-item" href="#four!"><img src="img/vampirism-icon.png"></a>
-                        <a class="carousel-item" href="#five!"><img src="img/gigantopus-icon.png"></a>
-                    </div>
-               
-            </section>
-
-            <section id = "templates" class="deep-purple">
-                <h2 class="center-align white-text">TEMPLATES</h2>
-                <div class="row container" data-anijs="if: scroll, on: window, do: bounceIn animated, to: .card, before: scrollReveal, after: scrollReveal">
-                      <div class="row">
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
+            <section id = "showcase" class=" grey lighten-2">
+                <div class="container">
+                    <h2 class="center-align black-text">SHOWCASE</h2>
+                    <div class="divider black"></div>
+                    <div class="section-header" data-anijs="if: scroll, on: window, do: flipInY animated, to: .showcase-item, before: scrollReveal, after: scrollReveal">
+                        <div class="row">
+                            <div class="col l2 m6 s6 offset-l1 showcase-item" >
+                                <a href="https://play.google.com/store/apps/details?id=com.neutron.enrapture" target="_blank"><img  class="responsive-img"  src="img/enrapture-icon.png"></a>
+                            </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a  href="https://play.google.com/store/apps/details?id=com.Thugs.FD" target="_blank"><img  class="responsive-img"  src="img/farewell-dreams-icon.png"></a>
+                            </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a  href="https://play.google.com/store/apps/details?id=com.VICASI.ElementalDash" target="_blank"><img  class="responsive-img"  src="img/elemental-dash-icon.png"></a>
+                            </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a  href="https://play.google.com/store/apps/details?id=com.getVamped.Vampirism" target="_blank"><img  class="responsive-img"  src="img/vampirism-icon.png"></a>
                             </div>
                         </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
+                        <div class="row">
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a href="https://play.google.com/store/apps/details?id=com.glmb.gigantopusdemo" target="_blank"><img  class="responsive-img"  src="img/gigantopus-icon.png"></a>
                             </div>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a  href="http://i68bizconsult.com/home/" target="_blank"><img  class="responsive-img"  src="img/i68-icon.png"></a>
                             </div>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a href="http://your-space.herokuapp.com/" target="_blank"><img  class="responsive-img"  src="img/yourspace-icon.png"></a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row container">
-                      <div class="row">
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <div class="card">
-                                <div class="card-image">
-                                <img src="img/parallax1.jpg">
-                                </div>
-                                <div class="card-content">
-                                <p>I am a very simple card.</p>
-                                </div>
+                            <div class="col l2 m6 s6 offset-l1 showcase-item">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id = "team" class="grey darken-1">
-                <h2 class="center-align Black-text">TEAM</h2>
-                <div class="container center-align" >
-                    <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: .circle-image, before: scrollReveal, after: scrollReveal">
-                        <div class="col l2 m6 s6 offset-l1">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+            <section id = "templates" class="grey lighten-4">
+                <div class="container">
+                    <h2 class="center-align black-text">TEMPLATES</h2>
+                    <div class="divider black"></div>
+                    <div class="row section-header" data-anijs="if: scroll, on: window, do: bounceIn animated, to: .card, before: scrollReveal, after: scrollReveal">
+                        <div class="row">
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col l2 m6 s6 offset-l1">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                        </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                        <div class="row">
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l3 m6 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="img/parallax1.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col l2 m6 s6 offset-l3">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
+                </div>
+            </section>
+
+            <section id = "team" class="grey darken-4">
+                <div class="container">
+                    <h2 class="center-align white-text">TEAM</h2>
+                    <div class="divider white"></div>
+                    <div class="center-align section-header" >
+                        <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: .circle-image, before: scrollReveal, after: scrollReveal">
+                            <div class="col l2 m6 s6 offset-l1">
+                                <img src="img/elon-musk.png" id="elon" alt="" class="circle responsive-img circle-image ">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
                         </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                        <div class="row">
+                            <div class="col l2 m6 s6 offset-l1">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
                         </div>
-                        <div class="col l2 m6 s6">
-                            <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                        <div class="row">
+                            <div class="col l2 m6 s6 offset-l3">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
+                            <div class="col l2 m6 s6">
+                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                            </div>
                         </div>
                     </div>
                 </div>

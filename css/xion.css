@@ -1,3 +1,40 @@
+ /*==========  Mobile First Method  ==========*/
+/* XXS Devices, Phones */
+@media only screen and (min-width : 200px) {
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .banner-text{
+         font-size: 13em;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
+
+
 body{
     font-family: CaviarDreams;
 }
@@ -12,14 +49,6 @@ footer{
     padding: 30px 10px 10px 10px;
 }
 
-.navigation-bar{
-    position: fixed;
-    z-index: 1;
-    background-color: #fafafa;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease-in 0.3s;
-    transition: box-shadow 0.1s ease-in 0.1s;
-}
 
 h2 {
   font-size: 3.2rem;
@@ -38,9 +67,23 @@ h2 {
   line-height: 110%;
   margin: 0.8rem 0 0.6rem 0;
 }
+.navigation-bar{
+    position: fixed;
+    z-index: 1;
+    background-color: #fafafa;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in 0.3s;
+    transition: box-shadow 0.1s ease-in 0.1s;
+}
+
+.banner-text{
+    font-family: Dense;
+    background: white;
+    border-radius: 50%;
+}
 
 .circle-image{
-    border: 0.4em solid #bdbdbd;
+    border: 0.3em solid #eeeeee;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -72,4 +115,14 @@ h2 {
 @font-face{
     font-family: CaviarDreams;
     src: url("../fonts/CaviarDreams/CaviarDreams.ttf")
+}
+
+@font-face{
+    font-family: Dense;
+    src: url("../fonts/dense/Dense-Regular.otf")
+}
+
+@font-face{
+    font-family: Roboto-Regular;
+    src: url("../fonts/roboto/Roboto-Regular.ttf")
 }
