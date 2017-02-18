@@ -15,10 +15,11 @@
     </head>
 
     <body>
-        <nav class="navigation-bar">
-            <div class="nav-wrapper black-text">
+        
+        <nav>
+            <div class="navigation-bar nav-wrapper black-text">
                 <div class = "container">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="mobile" class="button-collapse black-text"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#about" class="black-text">ABOUT</a></li>
                         <li><a href="#showcase" class="black-text">SHOWCASE</a></li>
@@ -26,12 +27,12 @@
                         <li><a href="#team" class="black-text">TEAM</a></li>
                         <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
                     </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="sass.html">ABOUT</a></li>
-                        <li><a href="badges.html">ABOUT</a></li>
-                        <li><a href="collapsible.html">TEMPLATES</a></li>
-                        <li><a href="mobile.html">TEAM</a></li>
-                        <li><a href="mobile.html">CONTACT US</a></li
+                    <ul class="side-nav" id="mobile">
+                        <li><a href="#about" class="black-text">ABOUT</a></li>
+                        <li><a href="#showcase" class="black-text">SHOWCASE</a></li>
+                        <li><a href="#templates" class="black-text">TEMPLATES</a></li>
+                        <li><a href="#team" class="black-text">TEAM</a></li>
+                        <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,7 +94,7 @@
                 <div class="container">
                     <h2 class="center-align black-text">SHOWCASE</h2>
                     <div class="divider black"></div>
-                    <div class="section-header" data-anijs="if: scroll, on: window, do: flipInY animated, to: .showcase-item, before: scrollReveal, after: scrollReveal">
+                    <div class="section-header" data-anijs="if: scroll, on: window, do: tada animated, to: .showcase-item, before: scrollReveal, after: scrollReveal">
                         <div class="row">
                             <div class="col l2 m6 s6 offset-l1" >
                                 <a href="https://play.google.com/store/apps/details?id=com.neutron.enrapture" target="_blank"><img  class="responsive-img showcase-item"  src="img/enrapture-icon.png"></a>
@@ -319,6 +320,7 @@
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
+        <script src="https://use.fontawesome.com/8ffcfd2ab7.js"></script>
         <script type="text/javascript" src="js/anijs-min.js"></script>
         <script type="text/javascript" src="js/anijs-helper-scrollreveal-min.js"></script>
         <script type="text/javascript" src="js/xion.js"></script>      
