@@ -42,6 +42,7 @@ body{
 section{
     margin: -10px 0px 0px 0px;
     padding: 20px 10px 60px 10px;
+
 }
 
 footer{
@@ -67,13 +68,17 @@ h2 {
   line-height: 110%;
   margin: 0.8rem 0 0.6rem 0;
 }
+
 .navigation-bar{
     position: fixed;
-    background-color: #fafafa;
+    z-index: 1;
+    /*background-color: #fafafa;*/
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease-in 0.3s;
     transition: box-shadow 0.1s ease-in 0.1s;
+    font-weight: 900;
 }
+
 
 .banner-text{
     font-family: Dense;
@@ -82,14 +87,19 @@ h2 {
 }
 
 .circle-image{
-    border: 0.3em solid #eeeeee;
+    box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.3), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    /*border: 0.3em solid #eeeeee;
     border-radius: 50%;
     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    -moz-border-radius: 50%;*/
 }
 
 .section-header{
     margin: 50px 0px 50px 0px;
+}
+
+.section-title{
+    font-weight: 900;
 }
 
 .active{

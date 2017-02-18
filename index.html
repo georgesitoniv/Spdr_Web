@@ -16,28 +16,27 @@
 
     <body>
         
-        <nav>
-            <div class="navigation-bar nav-wrapper black-text">
+        <nav class="navigation-bar red">
+            <div class="nav-wrapper ">
                 <div class = "container">
                     <a href="#" data-activates="mobile" class="button-collapse black-text"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#about" class="black-text">ABOUT</a></li>
-                        <li><a href="#showcase" class="black-text">SHOWCASE</a></li>
-                        <li><a href="#templates" class="black-text">TEMPLATES</a></li>
-                        <li><a href="#team" class="black-text">TEAM</a></li>
-                        <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile">
-                        <li><a href="#about" class="black-text">ABOUT</a></li>
-                        <li><a href="#showcase" class="black-text">SHOWCASE</a></li>
-                        <li><a href="#templates" class="black-text">TEMPLATES</a></li>
-                        <li><a href="#team" class="black-text">TEAM</a></li>
-                        <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
+                        <li><a href="#about" class="white-text">ABOUT</a></li>
+                        <li><a href="#showcase" class="white-text">SHOWCASE</a></li>
+                        <li><a href="#templates" class="white-text">TEMPLATES</a></li>
+                        <li><a href="#team" class="white-text">TEAM</a></li>
+                        <li><a href="#contact-us" class="white-text">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+        <ul class="side-nav" id="mobile">
+            <li><a href="#about" class="black-text">ABOUT</a></li>
+            <li><a href="#showcase" class="black-text">SHOWCASE</a></li>
+            <li><a href="#templates" class="black-text">TEMPLATES</a></li>
+            <li><a href="#team" class="black-text">TEAM</a></li>
+            <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
+        </ul>
         <header id = "banner">
             <div class="parallax-container  valign-wrapper">
                 <div class = "container ">
@@ -58,7 +57,7 @@
 
             <section id = "about" class="grey lighten-4" >
                 <div class = "container">
-                    <h2 class="center-align">We are Spdr!</h2>
+                    <h2 class="center-align section-title">WE ARE Spdr!</h2>
                     <div class="divider black"></div>
                     <div class="row section-header" data-anijs="if: scroll, on: window, do: bounceInUp animated, before: scrollReveal, after: scrollReveal"> 
                         <div class = "col l12">
@@ -92,7 +91,7 @@
 
             <section id = "showcase" class=" grey lighten-2">
                 <div class="container">
-                    <h2 class="center-align black-text">SHOWCASE</h2>
+                    <h2 class="center-align black-text section-title">SHOWCASE</h2>
                     <div class="divider black"></div>
                     <div class="section-header" data-anijs="if: scroll, on: window, do: tada animated, to: .showcase-item, before: scrollReveal, after: scrollReveal">
                         <div class="row">
@@ -128,7 +127,7 @@
 
             <section id = "templates" class="grey lighten-4">
                 <div class="container">
-                    <h2 class="center-align black-text">TEMPLATES</h2>
+                    <h2 class="center-align black-text section-title">TEMPLATES</h2>
                     <div class="divider black"></div>
                     <div class="row section-header" data-anijs="if: scroll, on: window, do: bounceIn animated, to: .card, before: scrollReveal, after: scrollReveal">
                         <div class="row">
@@ -221,9 +220,9 @@
                 </div>
             </section>
 
-            <section id = "team" class="grey darken-4">
+            <section id = "team" class="red">
                 <div class="container">
-                    <h2 class="center-align white-text">TEAM</h2>
+                    <h2 class="center-align white-text section-title">TEAM</h2>
                     <div class="divider white"></div>
                     <div class="center-align section-header" >
                         <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: .circle-image, before: scrollReveal, after: scrollReveal">
@@ -276,7 +275,7 @@
             </section>
         </article>
 
-        <footer class="black" id="contact-us">
+        <footer class="red darken-1" id="contact-us">
             <div class="container">
                 <div class="row">
                     <div class="col l6 m6 s12 center-align">
