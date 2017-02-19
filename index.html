@@ -2,14 +2,15 @@
 <html>
     <head>
         <title>Spdr Web</title>
+        <link href="img/spdr.png" rel="icon">
         <!--Import Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
-        <link rel="stylesheet" rel="stylesheet" href="css/animate.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <!--Theme css-->
         <link type="text/css" rel="stylesheet" href="css/xion.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+        <link rel="stylesheet" rel="stylesheet" href="css/animate.css">
         <!--Let browser know website is optimitransitionzed for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -37,7 +38,8 @@
             <li><a href="#team" class="black-text">TEAM</a></li>
             <li><a href="#contact-us" class="black-text">CONTACT US</a></li>
         </ul>
-        <header id = "banner">
+
+        <header id = "banner " class="scrollspy">
             <div class="parallax-container  valign-wrapper">
                 <div class = "container ">
                     <div class="row">
@@ -46,6 +48,7 @@
                         </div>
                         <div class="col l6 m6 s12 valign" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
                             <h1 class="white-text">"We make wonderful things"</h1>
+                            
                         </div>
                     </div>
                 </div>
@@ -55,7 +58,7 @@
 
         <article>
 
-            <section id = "about" class="grey lighten-4" >
+            <section id = "about" class="grey lighten-4 scrollspy" >
                 <div class = "container">
                     <h2 class="center-align section-title">WE ARE Spdr!</h2>
                     <div class="divider black"></div>
@@ -86,20 +89,20 @@
                             <p>We fabricate aesthetic graphic artworks.</p>
                         </div>
                     </div>
-                </div>          
+                </div>    
             </section>
 
-            <section id = "showcase" class=" grey lighten-2">
+            <section id = "showcase" class="red scrollspy">
                 <div class="container">
-                    <h2 class="center-align black-text section-title">SHOWCASE</h2>
-                    <div class="divider black"></div>
+                    <h2 class="center-align white-text section-title">SHOWCASE</h2>
+                    <div class="divider white"></div>
                     <div class="section-header" data-anijs="if: scroll, on: window, do: tada animated, to: .showcase-item, before: scrollReveal, after: scrollReveal">
                         <div class="row">
                             <div class="col l2 m6 s6 offset-l1" >
                                 <a href="https://play.google.com/store/apps/details?id=com.neutron.enrapture" target="_blank"><img  class="responsive-img showcase-item"  src="img/enrapture-icon.png"></a>
                             </div>
                             <div class="col l2 m6 s6 offset-l1 ">
-                                <a  href="https://play.google.com/store/apps/details?id=com.Thugs.FD" target="_blank"><img  class="responsive-img showcase-item"  src="img/farewell-dreams-icon.png"></a>
+                                <a href="http://your-space.herokuapp.com/" target="_blank"><img  class="responsive-img showcase-item"  src="img/yourspace-icon.png"></a>
                             </div>
                             <div class="col l2 m6 s6 offset-l1 ">
                                 <a  href="https://play.google.com/store/apps/details?id=com.VICASI.ElementalDash" target="_blank"><img  class="responsive-img showcase-item"  src="img/elemental-dash-icon.png"></a>
@@ -109,35 +112,33 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l2 m6 s6 offset-l1 ">
+                            <div class="col l2 m6 s6 offset-l2 ">
                                 <a href="https://play.google.com/store/apps/details?id=com.glmb.gigantopusdemo" target="_blank"><img  class="responsive-img showcase-item"  src="img/gigantopus-icon.png"></a>
                             </div>
                             <div class="col l2 m6 s6 offset-l1">
                                 <a  href="http://i68bizconsult.com/home/" target="_blank"><img  class="responsive-img showcase-item"  src="img/i68-icon.png"></a>
                             </div>
                             <div class="col l2 m6 s6 offset-l1">
-                                <a href="http://your-space.herokuapp.com/" target="_blank"><img  class="responsive-img showcase-item"  src="img/yourspace-icon.png"></a>
-                            </div>
-                            <div class="col l2 m6 s6 offset-l1 showcase-item">
+                                <a  href="https://play.google.com/store/apps/details?id=com.Thugs.FD" target="_blank"><img  class="responsive-img showcase-item"  src="img/farewell-dreams-icon.png"></a>   
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id = "templates" class="grey lighten-4">
+            <section id = "templates" class="grey lighten-4 scrollspy">
                 <div class="container">
                     <h2 class="center-align black-text section-title">TEMPLATES</h2>
-                    <div class="divider black"></div>
+                    <div class="divider black"></div> 
                     <div class="row section-header" data-anijs="if: scroll, on: window, do: bounceIn animated, to: .card, before: scrollReveal, after: scrollReveal">
                         <div class="row">
                             <div class="col l3 m6 s12">
                                 <div class="card">
                                     <div class="card-image">
-                                    <img src="img/parallax1.jpg">
+                                        <img src="img/parallax1.jpg">                                      
                                     </div>
                                     <div class="card-content">
-                                    <p>I am a very simple card.</p>
+                                    <p>I am a very simple card.</p>           
                                     </div>
                                 </div>
                             </div>
@@ -220,70 +221,75 @@
                 </div>
             </section>
 
-            <section id = "team" class="red">
+            <section id = "team" class="red scrollspy">
                 <div class="container">
                     <h2 class="center-align white-text section-title">TEAM</h2>
                     <div class="divider white"></div>
                     <div class="center-align section-header" >
-                        <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: .circle-image, before: scrollReveal, after: scrollReveal">
+                        <div class="row" data-anijs="if: scroll, on: window, do: fadeInUp animated, to: div a .circle-image, before: scrollReveal, after: scrollReveal">
                             <div class="col l2 m6 s6 offset-l1">
+                                <a href="#team-modal-1">
                                 <img src="img/elon-musk.png" id="elon" alt="" class="circle responsive-img circle-image ">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-2">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-3">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-4">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-5">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col l2 m6 s6 offset-l1">
+                                <a href="#team-modal-6">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-7">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-8">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-9">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                             <div class="col l2 m6 s6">
+                                <a href="#team-modal-10">
                                 <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l2 m6 s6 offset-l3">
-                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image ">
-                            </div>
-                            <div class="col l2 m6 s6">
-                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
-                            </div>
-                            <div class="col l2 m6 s6">
-                                <img src="img/elon-musk.png" alt="" class="circle responsive-img circle-image">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
         </article>
 
-        <footer class="red darken-1" id="contact-us">
+        <footer class="red darken-1 scrollspy" id="contact-us">
             <div class="container">
                 <div class="row">
                     <div class="col l6 m6 s12 center-align">
-                        <div class="row ">
-                            <div class="col l12">
-                                <img class="responsive-img" src = "img/letter.png"/>
-                            </div>
-                        </div>
                         <div class="row">
                             <div class="col l12">
                                 <p class="p2 white-text">Email: </p>
@@ -296,11 +302,6 @@
                         </div>      
                     </div>
                     <div class="col l6 m6 s12 center-align">
-                        <div class="row ">
-                            <div class="col l12">
-                                <img class="responsive-img" src = "img/smartphone.png"/>
-                            </div>
-                        </div>
                         <div class="row">
                             <div class="col l12">
                                 <p class="p2 white-text">Contact Number: </p>
@@ -316,14 +317,126 @@
             </div>
         </footer>
 
+        <!-- Team Modals -->
+        <div id="team-modal-1" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-2" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-3" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-4" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-5" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle " src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-6" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-7" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-8" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-9" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+        <div id="team-modal-10" class="modal red">
+            <div class="modal-content center-align">
+            <h4>Modal Header</h4>
+            <img class="responsive-img circle circle-image" src="img/elon-musk.png">  
+            <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer red darken-1">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-black btn-flat">CLOSE</a>
+            </div>
+        </div>
+
+
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/xion.js"></script>  
         <script src="https://use.fontawesome.com/8ffcfd2ab7.js"></script>
         <script type="text/javascript" src="js/anijs-min.js"></script>
         <script type="text/javascript" src="js/anijs-helper-scrollreveal-min.js"></script>
-        <script type="text/javascript" src="js/xion.js"></script>      
+    
     </body>
 
 </html>
-        

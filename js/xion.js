@@ -1,21 +1,20 @@
+
 $( document ).ready(function(){
+    $('.modal').modal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        opacity: 0.8, // Opacity of modal background
+        inDuration: 300, // Transition in duration
+        outDuration: 200, // Transition out duration
+        startingTop: '0%', // Starting top style attribute
+        endingTop: '4%', // Ending top style attribute
+    });
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.carousel').carousel();
+    $('.scrollspy').scrollSpy({
+        scrollOffset:50
+    });
 });
 
 
-$('a[href*="#"]:not([href="#"])').click(function() {
-    $("li").removeClass('active');
-    $(this).parents('li').addClass('active');
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-        return false;
-        }
-    }
-});
+
