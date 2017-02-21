@@ -14,12 +14,13 @@ $( document ).ready(function(){
     $('.scrollspy').scrollSpy({
         scrollOffset:50
     });
+    $("#info-modal").modal("open");
 });
 
 
 
  $(window).bind('DOMContentLoaded load resize', function () {
-    if ($(window).innerWidth() <= 500) {
+    if ($(window).innerWidth() <= 600) {
         $("#parallax-image").removeClass('responsive-img');
     }else{
         $("#parallax-image").addClass('responsive-img');
