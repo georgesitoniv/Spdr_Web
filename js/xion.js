@@ -18,3 +18,10 @@ $( document ).ready(function(){
 
 
 
+ $(window).bind('DOMContentLoaded load resize', function () {
+    if ($(window).innerWidth() <= 500) {
+        $("#parallax-image").removeClass('responsive-img');
+    }else{
+        $("#parallax-image").addClass('responsive-img');
+    }
+ });
