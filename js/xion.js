@@ -19,9 +19,14 @@ $( document ).ready(function(){
 
 
  $(window).bind('DOMContentLoaded load resize', function () {
-    if ($(window).innerWidth() <= 600) {
+    if ($(window).innerWidth() <= 800) {
         $("#parallax-image").removeClass('responsive-img');
     }else{
         $("#parallax-image").addClass('responsive-img');
+    }
+    if ($(window).innerWidth() <= 1024) {
+        $(".showcase-item").removeClass('horizontal');
+    } else{
+        $(".showcase-item").idClass('horizontal');
     }
  });
