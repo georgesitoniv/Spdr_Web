@@ -1,6 +1,9 @@
  /*==========  Mobile First Method  ==========*/
 /* XXS Devices, Phones */
 @media only screen and (min-width : 200px) {
+    .parallax-container{
+        height: 800px;
+    }
 
 }
 /* Custom, iPhone Retina */
@@ -16,6 +19,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    .parallax-container{
+        height: 700px;
+    }
 
 
 
@@ -111,10 +117,6 @@ h2 {
     transition: background-color 0.3s ease-in 0.3s;
 }
 
-.parallax-container{
-    height: 700px;
-}
-
 #banner-logo{
     min-width: 200px;
     min-height: 200px
@@ -136,7 +138,7 @@ h2 {
 .title-bar-button{
     height: 15px;
     width: 15px;  
-    top:-15px;  
+    top:-5px;  
 }
 
 .template-title{
@@ -144,8 +146,10 @@ h2 {
 }
 
 .template-card .card-content{
-    max-height: 5px !important;
-    height: 5px !important;
+    max-height: 25px !important;
+    height: 25px !important;
+    padding: 5px !important;
+    border-radius: 5px 5px 0px 0px !important;
 }
 
 .card-image img{
