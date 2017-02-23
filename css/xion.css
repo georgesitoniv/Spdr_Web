@@ -71,8 +71,7 @@ h2 {
 
 .navigation-bar{
     position: fixed;
-    z-index: 1;
-    /*background-color: #fafafa;*/
+    z-index: 1000;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease-in 0.3s;
     transition: box-shadow 0.1s ease-in 0.1s;
@@ -126,8 +125,12 @@ h2 {
 }
 
 .icon{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 180px !important;
+    max-height: 180px !important;
+}
+
+.showcase-image{
+    padding: 10px 10px 10px 10px;
 }
 
 @font-face{
@@ -143,4 +146,37 @@ h2 {
 @font-face{
     font-family: Roboto-Regular;
     src: url("../fonts/roboto/Roboto-Regular.ttf")
+}
+
+.cards-container {
+  column-break-inside: avoid;
+}
+.cards-container .card {
+  display: inline-block;
+  overflow: visible;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards-container {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .cards-container {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .cards-container {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+.text-center {
+  text-align: center;
 }

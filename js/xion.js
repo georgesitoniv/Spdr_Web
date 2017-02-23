@@ -14,7 +14,6 @@ $( document ).ready(function(){
     $('.scrollspy').scrollSpy({
         scrollOffset:50
     });
-    $("#info-modal").modal("open");
 });
 
 
