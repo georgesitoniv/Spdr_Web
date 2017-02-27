@@ -50,6 +50,9 @@ section{
     padding: 20px 10px 60px 10px;
 }
 
+img {
+    image-orientation: from-image;
+}
 
 h2 {
   font-size: 3.2rem;
@@ -150,6 +153,7 @@ h2 {
 .footer-copyright{
     padding: 10px;
 }
+
 
 @font-face{
     font-family: CaviarDreams;
