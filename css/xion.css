@@ -37,12 +37,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-  
+
 }
 
 
 body{
-    font-family: CaviarDreams;
+    font-family: HelveticaNueue;
+    font-size: 1.25rem;
 }
 
 section{
@@ -106,7 +107,7 @@ h2 {
 
 .opaque{
     background-color: transparent;
-    box-shadow: 0px 0px 0px black;  
+    box-shadow: 0px 0px 0px black;
     transition: background-color 0.3s ease-in 0.3s;
 }
 
@@ -132,12 +133,12 @@ h2 {
 
 .title-bar-button{
     height: 15px;
-    width: 15px;  
-    top:-5px;  
+    width: 15px;
+    top:-5px;
 }
 
 .template-title{
-    top:-20px; 
+    top:-20px;
 }
 
 .template-card .card-content{
@@ -155,10 +156,25 @@ h2 {
     padding: 10px;
 }
 
+.modal-content {
+    color: white;
+}
+
 
 @font-face{
     font-family: CaviarDreams;
     src: url("../fonts/CaviarDreams/CaviarDreams.ttf")
+}
+
+@font-face{
+    font-family: HelveticaNueue;
+    src: url("../fonts/HelveticaNeueUltraLight.ttf")
+}
+
+@font-face{
+    font-family: HelveticaNueue;
+    src: url("../fonts/HelveticaNeueLight.ttf");
+    font-weight: bold;
 }
 
 @font-face{
